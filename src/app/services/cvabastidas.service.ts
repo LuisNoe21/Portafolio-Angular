@@ -78,7 +78,9 @@ export class CvabastidasService {
 
   private CargarBlog() {
     this.http
-      .get('https://cv-tutorial-70504.firebaseio.com/Blog.json')
+      .get(
+        'https://portafolio-personal-634c6-default-rtdb.firebaseio.com/Blog.json'
+      )
       .subscribe((resp: any[]) => {
         this.blog = resp;
         console.log(resp);

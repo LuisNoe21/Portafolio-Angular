@@ -622,8 +622,8 @@ h2.menu-item:before {
     transition: all 0.5s ease;
 }
 
-h2.about.menu-item:before {
-    content: '01';
+/* h2.about.menu-item:before {
+    content: '\f246';
 }
 
 h2.portfolio.menu-item:before {
@@ -636,7 +636,7 @@ h2.blog.menu-item:before {
 
 h2.contact.menu-item:before {
     content: '04';
-}
+} */
 
 .menu-block:hover h2.menu-item:before {
     top: -20px;

@@ -72,7 +72,7 @@ var CvabastidasService = /** @class */ (function () {
     CvabastidasService.prototype.CargarBlog = function () {
         var _this = this;
         this.http
-            .get('https://cv-tutorial-70504.firebaseio.com/Blog.json')
+            .get('https://portafolio-personal-634c6-default-rtdb.firebaseio.com/Blog.json')
             .subscribe(function (resp) {
             _this.blog = resp;
             console.log(resp);
