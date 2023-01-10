@@ -1432,6 +1432,40 @@ h4.package {
                         7. PORTFOLIO BLOCK
 
 -------------------------------------------------------------------*/
+.cv-btn {
+  margin: center;
+  padding-top: 20px;
+  position: relative;
+}
+
+.hijo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cv-btn a {
+  font-size: 14px;
+  color: rgb(236, 241, 250);
+  background-color: transparent;
+  border: 1px solid rgb(236, 241, 250);
+  border-radius: 4px;
+  padding: 12px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.cv-btn a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
 
 .portfolio-block {
     position: absolute;
