@@ -151,6 +151,11 @@ small {
     color: #333;
 }
 
+/*Social I*/
+.social i{
+  color: white;
+}
+
 /* Buttons */
 
 a:not([href]):not([tabindex]) {
@@ -158,7 +163,7 @@ a:not([href]):not([tabindex]) {
     cursor: pointer;
 }
 
-.btn {
+.btn  {
     border: 2px solid transparent;
     border-radius: 0;
     padding: 12px 28px;
@@ -175,9 +180,26 @@ a:not([href]):not([tabindex]) {
     overflow: hidden;
 }
 
+.btn-yt {
+  border: 2px solid transparent;
+  border-radius: 0;
+  padding: 12px 28px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all .3s;
+  position: relative;
+  color: #FFF;
+  background-color: rgb(245, 18, 18);
+  z-index: 20;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
 .btn:hover {
-    color: #666;
-    background-color: #FFF;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 124, 197);
     border: 2px solid #666;
     letter-spacing: 3px;
 }
@@ -194,10 +216,22 @@ a:not([href]):not([tabindex]) {
     padding: 16px 55px 16px 25px;
 }
 
+.btn-yt:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 124, 197);
+  border: 2px solid #666;
+  letter-spacing: 3px;
+}
+
+.btn-yt:focus {
+  box-shadow: none;
+  color: #FFF;
+  outline: none;
+}
 .btn-download:hover {
     border: none;
     color: #FFF;
-    background-color: #333;
+    background-color: rgb(29, 124, 197);
     letter-spacing: 2px;
 }
 
@@ -904,7 +938,7 @@ h2.menu-item:after {
 .block-title {
     font-size: 24px;
     text-transform: uppercase;
-    color: #333;
+    color: rgb(79, 104, 217);
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 30px;
@@ -2095,6 +2129,13 @@ h4.package {
                         9. CONTACT BLOCK
 
 -------------------------------------------------------------------*/
+i{
+  color: #000;
+}
+
+.ion-social-youtube{
+  color: white;
+}
 
 .contact-block {
     position: absolute;
